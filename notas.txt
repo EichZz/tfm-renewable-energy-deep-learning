@@ -1,0 +1,11 @@
+Tenemos:
+0
+2
+3
+4
+...
+7299
+Queremos:
+Mediciones Dia X, Día Y (Predicción del día X+1)
+0, 1, 2, ... 19, y00, y01, y02 ... y019
+20, 21, 22, ... 39, y10, y11, y12, .. y119

@@ -6,25 +6,33 @@ from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 
-
-# Read the data from the matlab file
-mat = scipy.io.loadmat('PV1min_Cmb.mat')
-
 # Convert dictionary to Pandas DataFrame
-df = pd.DataFrame(mat.items())
-print(df)
-values = df.values[3]
+df = pd.read_excel('2015_30min.xlsx', header= None)[0]
 
-np.savetxt('dataset.txt', values, delimiter=',')
+# Data preprocessing: each row will contain the 20 day measures, and the 20 measures 
+# who will be predicted for the next day by the algorithm.
+print("Num rows: " + str(df.shape[0]))
+numRows = int(df.shape[0] / 10)
 
-#target = 
+dfMulti = pd.DataFrame(columns=['col' + str(i) for i in range(0, 9)])
+
+for i in range(numRows):
+    start = 10 * i
+    end = start + 10
+    print("Start: " + str(start) + ". End: " + str(end) + ". " + str(df.iloc[start:end]))
+    dfMulti.loc[i] = df.iloc[start:end].values.flatten()
+
+print(dfMulti)
+
+
+# target = 
 # define the model
-model = Sequential()
-model.add(LSTM(32, input_shape=(10, 1)))
-model.add(Dense(1, activation='sigmoid'))
+# model = Sequential()
+# model.add(LSTM(32, input_shape=(10, 1)))
+# model.add(Dense(1, activation='sigmoid'))
 
-# compile the model
-model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+# # compile the model
+# model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # train the model with GPU acceleration
 # with tf.device('/GPU:0'):
