@@ -26,6 +26,7 @@ y.loc[len(y)] = np.zeros(10)
 
 dfPreproccessed = pd.concat([X, y], axis=1)
 
+print("DataFrame Preproccessed:")
 print(dfPreproccessed)
 
 # Split the data into training and validation sets
@@ -40,14 +41,18 @@ model.add(Dense(1, activation="sigmoid"))
 # Model compilation
 model.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
 
-# Model training with GPU acceleration
+print("X_TRAIN")
+print(X_train.shape[1])
+
+# Model training with GPU acceleration - TO DO: CHANGE EPOCHS TO 10
 with tf.device("/GPU:0"):
+    #https://stackoverflow.com/questions/42240376/dataframe-object-has-no-attribute-reshape
     history = model.fit(
-        X_train.reshape((X_train.shape[0], X_train.shape[1], 1)),
+        X_train.values.reshape((X_train.shape[0], X_train.shape[1], 1)),
         y_train,
-        epochs=10,
+        epochs=1,
         batch_size=16,
-        validation_data=(X_val.reshape((X_val.shape[0], X_val.shape[1], 1)), y_val))
+        validation_data=(X_val.values.reshape((X_val.shape[0], X_val.shape[1], 1)), y_val))
 
 # Training and Validation loss curves
 plt.plot(history.history['loss'], label='Training loss')
