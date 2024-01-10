@@ -13,3 +13,6 @@ Mediciones Dia X, Día Y (Predicción del día X+1)
 Bibliografía:
 https://www.analyticsvidhya.com/blog/2021/03/introduction-to-long-short-term-memory-lstm/
 https://www.kaggle.com/code/carlmcbrideellis/temporal-convolutional-network-using-keras-tcn
+https://stackoverflow.com/questions/45278286/how-to-choose-lstm-keras-parameters
+https://pypi.org/project/keras-tcn/2.9.3/#arguments
+https://keras.io/api/layers/recurrent_layers/gru/
