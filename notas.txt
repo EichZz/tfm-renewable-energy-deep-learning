@@ -16,3 +16,5 @@ https://www.kaggle.com/code/carlmcbrideellis/temporal-convolutional-network-usin
 https://stackoverflow.com/questions/45278286/how-to-choose-lstm-keras-parameters
 https://pypi.org/project/keras-tcn/2.9.3/#arguments
 https://keras.io/api/layers/recurrent_layers/gru/
+https://keras.io/guides/keras_tuner/getting_started/
+https://medium.com/@mlblogging.k/14-loss-functions-you-can-use-for-regression-b24db8dff987
