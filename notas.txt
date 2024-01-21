@@ -1,3 +1,7 @@
+Son 365 días relativos al 2015 y los 366 relativos al 2016. 
+De cada día hay 10 horas, que están medidas o cada 30 minutos o cada 1 minuto. 
+Por eso el 2015_30min tiene 7300 mediciones (365 dias * 10 horas * 2 mediciones por hora = 72030).
+
 Tenemos:
 0
 2
@@ -18,3 +22,8 @@ https://pypi.org/project/keras-tcn/2.9.3/#arguments
 https://keras.io/api/layers/recurrent_layers/gru/
 https://keras.io/guides/keras_tuner/getting_started/
 https://medium.com/@mlblogging.k/14-loss-functions-you-can-use-for-regression-b24db8dff987
+
+Validation error under training error justification: 
+One possibility: If you are using dropout regularization layer in your network, it is reasonable that the validation error is smaller than training error. 
+Because usually dropout is activated when training but deactivated when evaluating on the validation set. 
+You get a more smooth (usually means better) function in the latter case.
