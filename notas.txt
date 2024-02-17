@@ -1,6 +1,6 @@
 Son 365 días relativos al 2015 y los 366 relativos al 2016. 
 De cada día hay 10 horas, que están medidas o cada 30 minutos o cada 1 minuto. 
-Por eso el 2015_30min tiene 7300 mediciones (365 dias * 10 horas * 2 mediciones por hora = 72030).
+Por eso el 2015_30min tiene 7300 mediciones (365 dias * 10 horas * 2 mediciones por hora = 7300).
 
 Tenemos:
 0
@@ -27,3 +27,5 @@ Validation error under training error justification:
 One possibility: If you are using dropout regularization layer in your network, it is reasonable that the validation error is smaller than training error. 
 Because usually dropout is activated when training but deactivated when evaluating on the validation set. 
 You get a more smooth (usually means better) function in the latter case.
+
+https://towardsdatascience.com/hyperparameter-tuning-with-keras-tuner-283474fbfbe

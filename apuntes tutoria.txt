@@ -1,0 +1,8 @@
+- keras_tuner
+- HP: dropout, .. añadir más hiperparámetros.
+- optimizer: bayessian optimization, random search
+- MAPE?? Corregir error
+
+- Memoria: probar los disintos hiperparámetros, comparar deep learning con machine learning (que debería ser peor)
+
+MAE Train: 115 (sin normalizar)
