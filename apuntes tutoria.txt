@@ -6,3 +6,11 @@
 - Memoria: probar los disintos hiperparámetros, comparar deep learning con machine learning (que debería ser peor)
 
 MAE Train: 115 (sin normalizar)
+
+
+_____________________________________________________
+
+- AÑadir hp
+- Añadir keras_tuner en todos lados
+- Quitar sigmoid en todos
+- Añadir 2016
