@@ -1,0 +1,51 @@
+Model Details:
+==============
+
+H2ORegressionModel: deeplearning
+Model Key:  Grid_DeepLearning_training_model_R_1533741898671_97_model_16 
+Status of Neuron Layers: predicting PV_H17, regression, gaussian distribution, Quadratic loss, 2.161 weights/biases, 57,8 KB, 2.510 training samples, mini-batch size 1
+  layer units   type dropout       l1       l2 mean_rate rate_rms momentum mean_weight weight_rms mean_bias bias_rms
+1     1   170  Input  0.00 %                                                                                        
+2     2    10   Tanh  0.00 % 0.000000 0.000000  0.000378 0.000228 0.000000    0.031624   0.567469 -0.002489 0.012401
+3     3    10   Tanh  0.00 % 0.000000 0.000000  0.000173 0.000056 0.000000    0.037700   0.517825 -0.009409 0.011082
+4     4    10   Tanh  0.00 % 0.000000 0.000000  0.000262 0.000106 0.000000    0.018141   0.549420 -0.001187 0.015572
+5     5    10   Tanh  0.00 % 0.000000 0.000000  0.000447 0.000220 0.000000    0.083080   0.593092  0.002988 0.020550
+6     6    10   Tanh  0.00 % 0.000000 0.000000  0.001599 0.001851 0.000000    0.008703   0.533579  0.000294 0.026308
+7     7     1 Linear         0.000000 0.000000  0.000132 0.000036 0.000000   -0.079715   0.429024  0.018231 0.000000
+
+H2ORegressionMetrics: deeplearning
+** Reported on training data. **
+** Metrics reported on full training frame **
+
+MSE:  0.02031909
+RMSE:  0.1425451
+MAE:  0.111211
+RMSLE:  0.1093753
+Mean Residual Deviance :  0.02031909
+
+
+H2ORegressionMetrics: deeplearning
+** Reported on validation data. **
+** Metrics reported on full validation frame **
+
+MSE:  0.03351446
+RMSE:  0.1830696
+MAE:  0.1495899
+RMSLE:  0.1365219
+Mean Residual Deviance :  0.03351446
+
+
+
+
+Scoring History: 
+            timestamp   duration training_speed   epochs iterations     samples training_rmse training_deviance
+1 2018-08-08 17:34:18  0.000 sec                 0.00000          0    0.000000                                
+2 2018-08-08 17:34:18  4.863 sec  35857 obs/sec  1.00000          1  251.000000       0.22279           0.04964
+3 2018-08-08 17:34:18  4.927 sec  39218 obs/sec 10.00000         10 2510.000000       0.14255           0.02032
+  training_mae validation_rmse validation_deviance validation_mae
+1                                                                
+2      0.17805         0.22288             0.04968        0.17492
+3      0.11121         0.18307             0.03351        0.14959
+
+NULL
+[1] "TRAINING TIME: 6.21000000000004 seconds"

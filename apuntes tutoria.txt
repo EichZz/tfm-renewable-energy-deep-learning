@@ -14,3 +14,14 @@ _____________________________________________________
 - Añadir keras_tuner en todos lados
 - Quitar sigmoid en todos
 - Añadir 2016
+
+
+_______________________________________________________
+ 3 exp: usar datos de expermientación de Pepe, tanto usando RS como BO  - Figura 7 del Paper.
+
+  Memoria:
+  1- Introducción
+  2 - Related work
+  3 - Metodología: deep learning, teoría de los algoritmos, uso de gpu.
+  4- Resultados
+

@@ -1,0 +1,47 @@
+Model Details:
+==============
+
+H2ORegressionModel: deeplearning
+Model Key:  Grid_DeepLearning_training_model_R_1534091208427_23_model_0 
+Status of Neuron Layers: predicting PV_H3, regression, gaussian distribution, Quadratic loss, 401 weights/biases, 13,5 KB, 2.550 training samples, mini-batch size 1
+  layer units   type dropout       l1       l2 mean_rate rate_rms momentum mean_weight weight_rms mean_bias bias_rms
+1     1    38  Input  0.00 %                                                                                        
+2     2    10   Tanh  0.00 % 0.000000 0.000000  0.002126 0.003703 0.000000   -0.006345   0.578390 -0.018181 0.036512
+3     3     1 Linear         0.000000 0.000000  0.000222 0.000056 0.000000    0.064591   0.408709 -0.074083 0.000000
+
+H2ORegressionMetrics: deeplearning
+** Reported on training data. **
+** Metrics reported on full training frame **
+
+MSE:  0.01201025
+RMSE:  0.1095913
+MAE:  0.08790736
+RMSLE:  0.08546132
+Mean Residual Deviance :  0.01201025
+
+
+H2ORegressionMetrics: deeplearning
+** Reported on validation data. **
+** Metrics reported on full validation frame **
+
+MSE:  0.03705358
+RMSE:  0.1924931
+MAE:  0.1611288
+RMSLE:  0.1369286
+Mean Residual Deviance :  0.03705358
+
+
+
+
+Scoring History: 
+            timestamp   duration training_speed   epochs iterations     samples training_rmse training_deviance
+1 2018-08-12 18:28:17  0.000 sec                 0.00000          0    0.000000                                
+2 2018-08-12 18:28:17  0.059 sec  85000 obs/sec  1.00000          1  255.000000       0.15184           0.02306
+3 2018-08-12 18:28:17  0.080 sec 121428 obs/sec 10.00000         10 2550.000000       0.10959           0.01201
+  training_mae validation_rmse validation_deviance validation_mae
+1                                                                
+2      0.12709         0.22336             0.04989        0.18997
+3      0.08791         0.19249             0.03705        0.16113
+
+NULL
+[1] "TRAINING TIME: 2.241 seconds"

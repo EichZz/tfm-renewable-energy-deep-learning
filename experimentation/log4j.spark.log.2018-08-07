@@ -1,0 +1,1004 @@
+18/08/07 20:39:54 INFO SparkContext: Invoking stop() from shutdown hook
+18/08/07 20:39:54 INFO SparkUI: Stopped Spark web UI at http://192.168.47.239:4040
+18/08/07 20:39:54 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/08/07 20:39:54 INFO MemoryStore: MemoryStore cleared
+18/08/07 20:39:54 INFO BlockManager: BlockManager stopped
+18/08/07 20:39:54 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/08/07 20:39:54 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/08/07 20:39:54 INFO SparkContext: Successfully stopped SparkContext
+18/08/07 20:39:54 INFO ShutdownHookManager: Shutdown hook called
+18/08/07 20:39:54 INFO ShutdownHookManager: Deleting directory /tmp/spark-99182fb1-7a82-4625-afac-4fb6fcba26ba/repl-85f3445a-d57e-452f-9977-ec0cb520aa55
+18/08/07 20:39:54 INFO ShutdownHookManager: Deleting directory /tmp/spark-99182fb1-7a82-4625-afac-4fb6fcba26ba/repl-836c2b31-7a98-4055-af8d-458400e3c64b
+18/08/07 20:39:54 INFO ShutdownHookManager: Deleting directory /tmp/spark-99182fb1-7a82-4625-afac-4fb6fcba26ba
+18/08/07 20:40:28 INFO SparkContext: Running Spark version 2.0.2
+18/08/07 20:40:28 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/08/07 20:40:28 INFO SecurityManager: Changing view acls to: josftm
+18/08/07 20:40:28 INFO SecurityManager: Changing modify acls to: josftm
+18/08/07 20:40:28 INFO SecurityManager: Changing view acls groups to: 
+18/08/07 20:40:28 INFO SecurityManager: Changing modify acls groups to: 
+18/08/07 20:40:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(josftm); groups with view permissions: Set(); users  with modify permissions: Set(josftm); groups with modify permissions: Set()
+18/08/07 20:40:28 INFO Utils: Successfully started service 'sparkDriver' on port 42480.
+18/08/07 20:40:28 INFO SparkEnv: Registering MapOutputTracker
+18/08/07 20:40:28 INFO SparkEnv: Registering BlockManagerMaster
+18/08/07 20:40:28 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-be9c51a6-a8a6-4d77-920d-235bd0eff63e
+18/08/07 20:40:28 INFO MemoryStore: MemoryStore started with capacity 8.4 GB
+18/08/07 20:40:28 INFO SparkEnv: Registering OutputCommitCoordinator
+18/08/07 20:40:28 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+18/08/07 20:40:28 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.47.239:4040
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar at spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar at spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar at spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/no.priv.garshol.duke_duke-1.2.jar at spark://192.168.47.239:42480/jars/no.priv.garshol.duke_duke-1.2.jar with timestamp 1533667228910
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-app-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-app-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.joda_joda-convert-1.7.jar at spark://192.168.47.239:42480/jars/org.joda_joda-convert-1.7.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-web-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-web-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-algos-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-algos-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-core-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-core-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar at spark://192.168.47.239:42480/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/gov.nist.math_jama-1.0.3.jar at spark://192.168.47.239:42480/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.javassist_javassist-3.18.2-GA.jar at spark://192.168.47.239:42480/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.commons_commons-math3-3.3.jar at spark://192.168.47.239:42480/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar at spark://192.168.47.239:42480/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-io_commons-io-2.4.jar at spark://192.168.47.239:42480/jars/commons-io_commons-io-2.4.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar at spark://192.168.47.239:42480/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.github.rwl_jtransforms-2.4.0.jar at spark://192.168.47.239:42480/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.github.tony19_named-regexp-0.2.3.jar at spark://192.168.47.239:42480/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/log4j_log4j-1.2.15.jar at spark://192.168.47.239:42480/jars/log4j_log4j-1.2.15.jar with timestamp 1533667228912
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.guava_guava-16.0.1.jar at spark://192.168.47.239:42480/jars/com.google.guava_guava-16.0.1.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.code.gson_gson-2.3.1.jar at spark://192.168.47.239:42480/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar at spark://192.168.47.239:42480/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/net.sf.opencsv_opencsv-2.3.jar at spark://192.168.47.239:42480/jars/net.sf.opencsv_opencsv-2.3.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_deepwater-backend-api-1.0.2.jar at spark://192.168.47.239:42480/jars/ai.h2o_deepwater-backend-api-1.0.2.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-lang_commons-lang-2.6.jar at spark://192.168.47.239:42480/jars/commons-lang_commons-lang-2.6.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar at spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at spark://192.168.47.239:42480/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.avro_avro-1.8.0.jar at spark://192.168.47.239:42480/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar at spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar at spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1533667228914
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.7.jar at spark://192.168.47.239:42480/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar at spark://192.168.47.239:42480/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.commons_commons-compress-1.8.1.jar at spark://192.168.47.239:42480/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.tukaani_xz-1.5.jar at spark://192.168.47.239:42480/jars/org.tukaani_xz-1.5.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.slf4j_slf4j-api-1.7.7.jar at spark://192.168.47.239:42480/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/net.java.dev.jets3t_jets3t-0.6.1.jar at spark://192.168.47.239:42480/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-httpclient_commons-httpclient-3.1.jar at spark://192.168.47.239:42480/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar at spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.httpcomponents_httpclient-4.3.6.jar at spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar at spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar at spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at spark://192.168.47.239:42480/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/joda-time_joda-time-2.8.1.jar at spark://192.168.47.239:42480/jars/joda-time_joda-time-2.8.1.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.httpcomponents_httpcore-4.3.3.jar at spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-codec_commons-codec-1.6.jar at spark://192.168.47.239:42480/jars/commons-codec_commons-codec-1.6.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-core-4.0.0.jar at spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-core-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar at spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-spatial-4.0.0.jar at spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-spatial-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.mapdb_mapdb-0.9.9.jar at spark://192.168.47.239:42480/jars/org.mapdb_mapdb-0.9.9.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.spatial4j_spatial4j-0.3.jar at spark://192.168.47.239:42480/jars/com.spatial4j_spatial4j-0.3.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-queries-4.0.0.jar at spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-queries-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO SparkContext: Added JAR file:/home/josftm/R/x86_64-pc-linux-gnu-library/3.4/sparklyr/java/sparklyr-2.0-2.11.jar at spark://192.168.47.239:42480/jars/sparklyr-2.0-2.11.jar with timestamp 1533667228916
+18/08/07 20:40:28 INFO Executor: Starting executor ID driver on host localhost
+18/08/07 20:40:28 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 37229.
+18/08/07 20:40:28 INFO NettyBlockTransferService: Server created on 192.168.47.239:37229
+18/08/07 20:40:28 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.47.239, 37229)
+18/08/07 20:40:28 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.47.239:37229 with 8.4 GB RAM, BlockManagerId(driver, 192.168.47.239, 37229)
+18/08/07 20:40:28 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.47.239, 37229)
+18/08/07 20:40:29 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+18/08/07 20:40:29 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+18/08/07 20:40:29 WARN InternalH2OBackend: Increasing 'spark.locality.wait' to value 30000
+18/08/07 20:40:29 INFO InternalH2OBackend: Starting H2O services: Sparkling Water configuration:
+  backend cluster mode : internal
+  workers              : None
+  cloudName            : sparkling-water-josftm_-328288177
+  flatfile             : true
+  clientBasePort       : 54321
+  nodeBasePort         : 54321
+  cloudTimeout         : 60000
+  h2oNodeLog           : INFO
+  h2oClientLog         : WARN
+  nthreads             : -1
+  drddMulFactor        : 10
+18/08/07 20:40:29 INFO SparkContext: Starting job: collect at SpreadRDDBuilder.scala:105
+18/08/07 20:40:29 INFO DAGScheduler: Got job 0 (collect at SpreadRDDBuilder.scala:105) with 11 output partitions
+18/08/07 20:40:29 INFO DAGScheduler: Final stage: ResultStage 0 (collect at SpreadRDDBuilder.scala:105)
+18/08/07 20:40:29 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:40:29 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:40:29 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at mapPartitionsWithIndex at SpreadRDDBuilder.scala:102), which has no missing parents
+18/08/07 20:40:29 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 2.1 KB, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1374.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.47.239:37229 (size: 1374.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:40:29 INFO DAGScheduler: Submitting 11 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at mapPartitionsWithIndex at SpreadRDDBuilder.scala:102)
+18/08/07 20:40:29 INFO TaskSchedulerImpl: Adding task set 0.0 with 11 tasks
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, partition 1, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, localhost, partition 2, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, localhost, partition 3, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, localhost, partition 4, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, localhost, partition 5, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, localhost, partition 6, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, localhost, partition 7, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, localhost, partition 8, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, localhost, partition 9, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, localhost, partition 10, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:40:29 INFO Executor: Running task 9.0 in stage 0.0 (TID 9)
+18/08/07 20:40:29 INFO Executor: Running task 3.0 in stage 0.0 (TID 3)
+18/08/07 20:40:29 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+18/08/07 20:40:29 INFO Executor: Running task 8.0 in stage 0.0 (TID 8)
+18/08/07 20:40:29 INFO Executor: Running task 7.0 in stage 0.0 (TID 7)
+18/08/07 20:40:29 INFO Executor: Running task 4.0 in stage 0.0 (TID 4)
+18/08/07 20:40:29 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+18/08/07 20:40:29 INFO Executor: Running task 6.0 in stage 0.0 (TID 6)
+18/08/07 20:40:29 INFO Executor: Running task 5.0 in stage 0.0 (TID 5)
+18/08/07 20:40:29 INFO Executor: Running task 2.0 in stage 0.0 (TID 2)
+18/08/07 20:40:29 INFO Executor: Running task 10.0 in stage 0.0 (TID 10)
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.tukaani_xz-1.5.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO TransportClientFactory: Successfully created connection to /192.168.47.239:42480 after 6 ms (0 ms spent in bootstraps)
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.tukaani_xz-1.5.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp7560431332379024262.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.tukaani_xz-1.5.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3744262659599661906.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-core-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-core-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1874440555756589180.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-core-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-queries-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-queries-4.0.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp4400625712052423775.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.lucene_lucene-queries-4.0.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp4275585250700102466.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-persist-s3-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp48979720778241328.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3304368880702771594.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/commons-io_commons-io-2.4.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/commons-io_commons-io-2.4.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5726207258952554343.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/commons-io_commons-io-2.4.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/commons-httpclient_commons-httpclient-3.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3081411088275578188.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/commons-httpclient_commons-httpclient-3.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/net.java.dev.jets3t_jets3t-0.6.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp4129541552936518711.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/net.java.dev.jets3t_jets3t-0.6.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2176738189585550386.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.slf4j_slf4j-api-1.7.7.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp534998383737349372.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.slf4j_slf4j-api-1.7.7.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6036640821999714800.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/gov.nist.math_jama-1.0.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3236787461734148868.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/gov.nist.math_jama-1.0.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.spatial4j_spatial4j-0.3.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.spatial4j_spatial4j-0.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5148128040134428205.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.spatial4j_spatial4j-0.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8221091126955736708.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.github.tony19_named-regexp-0.2.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8764964690778521959.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.github.tony19_named-regexp-0.2.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3402807455561290391.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.google.code.findbugs_jsr305-3.0.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.github.rwl_jtransforms-2.4.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8445982006954797422.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.github.rwl_jtransforms-2.4.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8769863685703979385.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8732939264586469494.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.xerial.snappy_snappy-java-1.1.1.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3538897394331469796.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3682137459215430751.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-avro-parser-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpclient-4.3.6.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5680135120021671724.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.httpcomponents_httpclient-4.3.6.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp7014895587065128270.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-scala_2.11-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8969716368983904204.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.lucene_lucene-analyzers-common-4.0.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3410387446853492614.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp7355764944322679161.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5445980905669492226.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.mapdb_mapdb-0.9.9.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.mapdb_mapdb-0.9.9.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3041250275738122484.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.mapdb_mapdb-0.9.9.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp382572066577370441.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.thoughtworks.paranamer_paranamer-2.7.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1356137030232563375.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.thoughtworks.paranamer_paranamer-2.7.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5488243319950884783.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_deepwater-backend-api-1.0.2.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_deepwater-backend-api-1.0.2.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5221727108776529275.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_deepwater-backend-api-1.0.2.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2366636351335703551.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp25732042946753359.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.commons_commons-math3-3.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2510616997839586870.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.commons_commons-math3-3.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/sparklyr-2.0-2.11.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/sparklyr-2.0-2.11.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2268215097642198962.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/sparklyr-2.0-2.11.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/no.priv.garshol.duke_duke-1.2.jar with timestamp 1533667228910
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/no.priv.garshol.duke_duke-1.2.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2719521845319167328.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/no.priv.garshol.duke_duke-1.2.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.google.code.gson_gson-2.3.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6704965167451385448.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.google.code.gson_gson-2.3.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar with timestamp 1533667228910
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp871104096139595356.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_sparkling-water-core_2.11-2.0.2.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8235090132394651865.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.avro_avro-1.8.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp7468274668111222485.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.avro_avro-1.8.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-algos-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-algos-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6350566361809419310.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-algos-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.google.guava_guava-16.0.1.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.google.guava_guava-16.0.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5392487586786225956.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.google.guava_guava-16.0.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-core-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-core-4.0.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6872884021988292148.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.lucene_lucene-core-4.0.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp4934584600284140578.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_reflections-0.9.11-h2o-custom.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.httpcomponents_httpcore-4.3.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1547204638044163438.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.httpcomponents_httpcore-4.3.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3115030801458862870.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6070266881063946019.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/commons-lang_commons-lang-2.6.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/commons-lang_commons-lang-2.6.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3503518543757933314.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/commons-lang_commons-lang-2.6.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/log4j_log4j-1.2.15.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/log4j_log4j-1.2.15.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp2518720536316356092.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/log4j_log4j-1.2.15.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3827405641287355218.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-spatial-4.0.0.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.lucene_lucene-spatial-4.0.0.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8115584914880499084.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.lucene_lucene-spatial-4.0.0.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5310227551653368320.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp6696071350456252914.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/joda-time_joda-time-2.8.1.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/joda-time_joda-time-2.8.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8907372041148232864.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/joda-time_joda-time-2.8.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.joda_joda-convert-1.7.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.joda_joda-convert-1.7.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp5079661920073529659.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.joda_joda-convert-1.7.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp509979400979505470.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/com.amazonaws_aws-java-sdk-core-1.10.47.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667228914
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3851173076322025346.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-app-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-app-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1376380987541587482.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-app-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1924077865068492883.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/commons-logging_commons-logging-1.1.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3030412568335461774.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/commons-logging_commons-logging-1.1.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-web-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-web-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp7944013286511403572.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-web-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp837351169102682021.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar with timestamp 1533667228911
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp9155160145436065856.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/ai.h2o_h2o-genmodel-3.10.0.10.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1533667228912
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.javassist_javassist-3.18.2-GA.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3893883493594674855.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.javassist_javassist-3.18.2-GA.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/net.sf.opencsv_opencsv-2.3.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/net.sf.opencsv_opencsv-2.3.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp1536876100330183474.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/net.sf.opencsv_opencsv-2.3.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1533667228913
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp3714230252366205819.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1533667228915
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/org.apache.commons_commons-compress-1.8.1.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp70976783114588368.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/org.apache.commons_commons-compress-1.8.1.jar to class loader
+18/08/07 20:40:29 INFO Executor: Fetching spark://192.168.47.239:42480/jars/commons-codec_commons-codec-1.6.jar with timestamp 1533667228916
+18/08/07 20:40:29 INFO Utils: Fetching spark://192.168.47.239:42480/jars/commons-codec_commons-codec-1.6.jar to /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/fetchFileTemp8980568965041364623.tmp
+18/08/07 20:40:29 INFO Executor: Adding file:/tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/userFiles-43035c18-8944-47a8-9e20-fc6a52b73fd9/commons-codec_commons-codec-1.6.jar to class loader
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_1 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_4 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_8 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_10 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_1 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_0 stored as values in memory (estimated size 16.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_4 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_6 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_3 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_5 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_8 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_9 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_2 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_10 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_0 in memory on 192.168.47.239:37229 (size: 16.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_6 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_5 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_3 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_9 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_2 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:29 INFO MemoryStore: Block rdd_0_7 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:40:29 INFO BlockManagerInfo: Added rdd_0_7 in memory on 192.168.47.239:37229 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 0:
+[rdd_0_0]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 6:
+[rdd_0_6]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 2:
+[rdd_0_2]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 9:
+[rdd_0_9]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 1:
+[rdd_0_1]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 10:
+[rdd_0_10]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 7:
+[rdd_0_7]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 8:
+[rdd_0_8]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 4:
+[rdd_0_4]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 3:
+[rdd_0_3]
+18/08/07 20:40:30 WARN Executor: 1 block locks were not released by TID = 5:
+[rdd_0_5]
+18/08/07 20:40:30 INFO Executor: Finished task 7.0 in stage 0.0 (TID 7). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 9.0 in stage 0.0 (TID 9). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 8.0 in stage 0.0 (TID 8). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 5.0 in stage 0.0 (TID 5). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 10.0 in stage 0.0 (TID 10). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 3.0 in stage 0.0 (TID 3). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 4.0 in stage 0.0 (TID 4). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 6.0 in stage 0.0 (TID 6). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO Executor: Finished task 2.0 in stage 0.0 (TID 2). 1632 bytes result sent to driver
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 366 ms on localhost (1/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 364 ms on localhost (2/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 363 ms on localhost (3/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 366 ms on localhost (4/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 397 ms on localhost (5/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 10.0 in stage 0.0 (TID 10) in 363 ms on localhost (6/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 374 ms on localhost (7/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 372 ms on localhost (8/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 370 ms on localhost (9/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 368 ms on localhost (10/11)
+18/08/07 20:40:30 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 373 ms on localhost (11/11)
+18/08/07 20:40:30 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/08/07 20:40:30 INFO DAGScheduler: ResultStage 0 (collect at SpreadRDDBuilder.scala:105) finished in 0,412 s
+18/08/07 20:40:30 INFO DAGScheduler: Job 0 finished: collect at SpreadRDDBuilder.scala:105, took 0,562082 s
+18/08/07 20:40:30 INFO ParallelCollectionRDD: Removing RDD 0 from persistence list
+18/08/07 20:40:30 INFO BlockManager: Removing RDD 0
+18/08/07 20:40:30 INFO SpreadRDDBuilder: Detected 1 spark executors for 1 H2O workers!
+18/08/07 20:40:30 INFO InternalH2OBackend: Launching H2O on following 1 nodes: (driver,192.168.47.239,-1)
+18/08/07 20:40:30 INFO SparkContext: Starting job: collect at InternalBackendUtils.scala:163
+18/08/07 20:40:30 INFO DAGScheduler: Got job 1 (collect at InternalBackendUtils.scala:163) with 1 output partitions
+18/08/07 20:40:30 INFO DAGScheduler: Final stage: ResultStage 1 (collect at InternalBackendUtils.scala:163)
+18/08/07 20:40:30 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:40:30 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:40:30 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[3] at map at InternalBackendUtils.scala:100), which has no missing parents
+18/08/07 20:40:30 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 3.0 KB, free 8.4 GB)
+18/08/07 20:40:30 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 1959.0 B, free 8.4 GB)
+18/08/07 20:40:30 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.47.239:37229 (size: 1959.0 B, free: 8.4 GB)
+18/08/07 20:40:30 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:40:30 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[3] at map at InternalBackendUtils.scala:100)
+18/08/07 20:40:30 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+18/08/07 20:40:30 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 11, localhost, partition 0, ANY, 11398 bytes)
+18/08/07 20:40:30 INFO Executor: Running task 0.0 in stage 1.0 (TID 11)
+18/08/07 20:40:30 INFO Reflections: Reflections took 176 ms to scan 18 urls, producing 169 keys and 1164 values 
+18/08/07 20:40:30 INFO Reflections: Reflections took 81 ms to scan 10 urls, producing 127 keys and 639 values 
+18/08/07 20:40:31 INFO Server: jetty-8.1.17.v20150415
+18/08/07 20:40:31 INFO BlockManager: Removing RDD 0
+18/08/07 20:40:31 INFO ContextCleaner: Cleaned RDD 0
+18/08/07 20:40:31 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 192.168.47.239:37229 in memory (size: 1374.0 B, free: 8.4 GB)
+18/08/07 20:40:31 INFO AbstractConnector: Started SocketConnector@0.0.0.0:54321
+18/08/07 20:40:31 INFO Executor: Finished task 0.0 in stage 1.0 (TID 11). 1536 bytes result sent to driver
+18/08/07 20:40:31 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 11) in 1042 ms on localhost (1/1)
+18/08/07 20:40:31 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+18/08/07 20:40:31 INFO DAGScheduler: ResultStage 1 (collect at InternalBackendUtils.scala:163) finished in 1,043 s
+18/08/07 20:40:31 INFO DAGScheduler: Job 1 finished: collect at InternalBackendUtils.scala:163, took 1,054655 s
+18/08/07 20:40:31 INFO SparkContext: Starting job: foreach at InternalBackendUtils.scala:175
+18/08/07 20:40:31 INFO DAGScheduler: Got job 2 (foreach at InternalBackendUtils.scala:175) with 1 output partitions
+18/08/07 20:40:31 INFO DAGScheduler: Final stage: ResultStage 2 (foreach at InternalBackendUtils.scala:175)
+18/08/07 20:40:31 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:40:31 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:40:31 INFO DAGScheduler: Submitting ResultStage 2 (InvokeOnNodesRDD[2] at RDD at InvokeOnNodesRDD.scala:27), which has no missing parents
+18/08/07 20:40:31 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 1688.0 B, free 8.4 GB)
+18/08/07 20:40:31 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1166.0 B, free 8.4 GB)
+18/08/07 20:40:31 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.47.239:37229 (size: 1166.0 B, free: 8.4 GB)
+18/08/07 20:40:31 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:40:31 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (InvokeOnNodesRDD[2] at RDD at InvokeOnNodesRDD.scala:27)
+18/08/07 20:40:31 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks
+18/08/07 20:40:31 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 12, localhost, partition 0, ANY, 11398 bytes)
+18/08/07 20:40:31 INFO Executor: Running task 0.0 in stage 2.0 (TID 12)
+18/08/07 20:40:31 INFO Executor: Finished task 0.0 in stage 2.0 (TID 12). 764 bytes result sent to driver
+18/08/07 20:40:31 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 12) in 5 ms on localhost (1/1)
+18/08/07 20:40:31 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+18/08/07 20:40:31 INFO DAGScheduler: ResultStage 2 (foreach at InternalBackendUtils.scala:175) finished in 0,007 s
+18/08/07 20:40:31 INFO DAGScheduler: Job 2 finished: foreach at InternalBackendUtils.scala:175, took 0,013220 s
+18/08/07 20:40:31 INFO SharedState: Warehouse path is 'file:/home/josftm/Dropbox/SOCO_SPECIALISSUE/experimentation/spark-warehouse'.
+18/08/07 20:40:31 WARN SparkSession$Builder: Using an existing SparkSession; some configuration may not take effect.
+18/08/07 20:40:32 INFO ContextCleaner: Cleaned accumulator 264
+18/08/07 20:40:32 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.47.239:37229 in memory (size: 1959.0 B, free: 8.4 GB)
+18/08/07 20:40:32 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.47.239:37229 in memory (size: 1166.0 B, free: 8.4 GB)
+18/08/07 20:40:37 INFO H2OContext: Sparkling Water started, status of context: 
+Sparkling Water Context:
+ * H2O name: sparkling-water-josftm_-328288177
+ * cluster size: 1
+ * list of used nodes:
+  (executorId, host, port)
+  ------------------------
+  (driver,192.168.47.239,54321)
+  ------------------------
+
+  Open H2O Flow in browser: http://192.168.47.239:54321 (CMD + click in Mac OSX)
+    
+18/08/07 20:42:12 INFO SparkContext: Invoking stop() from shutdown hook
+18/08/07 20:42:12 INFO SparkUI: Stopped Spark web UI at http://192.168.47.239:4040
+18/08/07 20:42:12 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/08/07 20:42:12 INFO MemoryStore: MemoryStore cleared
+18/08/07 20:42:12 INFO BlockManager: BlockManager stopped
+18/08/07 20:42:12 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/08/07 20:42:12 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/08/07 20:42:12 INFO SparkContext: Successfully stopped SparkContext
+18/08/07 20:42:12 INFO ShutdownHookManager: Shutdown hook called
+18/08/07 20:42:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/repl-e72a3055-77fe-4ba0-a9d6-b4cdeb3c8f08
+18/08/07 20:42:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b
+18/08/07 20:42:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-d8f25a63-f55c-49ea-b416-96fece75a87b/repl-8df089d8-a211-4b49-8884-f506c1714dfa
+18/08/07 20:42:30 INFO SparkContext: Running Spark version 2.0.2
+18/08/07 20:42:30 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/08/07 20:42:30 INFO SecurityManager: Changing view acls to: josftm
+18/08/07 20:42:30 INFO SecurityManager: Changing modify acls to: josftm
+18/08/07 20:42:30 INFO SecurityManager: Changing view acls groups to: 
+18/08/07 20:42:30 INFO SecurityManager: Changing modify acls groups to: 
+18/08/07 20:42:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(josftm); groups with view permissions: Set(); users  with modify permissions: Set(josftm); groups with modify permissions: Set()
+18/08/07 20:42:30 INFO Utils: Successfully started service 'sparkDriver' on port 34706.
+18/08/07 20:42:30 INFO SparkEnv: Registering MapOutputTracker
+18/08/07 20:42:30 INFO SparkEnv: Registering BlockManagerMaster
+18/08/07 20:42:30 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-4f777904-f2d9-4382-a05c-72d4b99b2033
+18/08/07 20:42:30 INFO MemoryStore: MemoryStore started with capacity 8.4 GB
+18/08/07 20:42:30 INFO SparkEnv: Registering OutputCommitCoordinator
+18/08/07 20:42:31 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+18/08/07 20:42:31 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.47.239:4040
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar at spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar with timestamp 1533667351108
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar at spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar at spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/no.priv.garshol.duke_duke-1.2.jar at spark://192.168.47.239:34706/jars/no.priv.garshol.duke_duke-1.2.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-app-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-app-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.joda_joda-convert-1.7.jar at spark://192.168.47.239:34706/jars/org.joda_joda-convert-1.7.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-web-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-web-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-algos-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-algos-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-core-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-core-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar at spark://192.168.47.239:34706/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/gov.nist.math_jama-1.0.3.jar at spark://192.168.47.239:34706/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.javassist_javassist-3.18.2-GA.jar at spark://192.168.47.239:34706/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.commons_commons-math3-3.3.jar at spark://192.168.47.239:34706/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar at spark://192.168.47.239:34706/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-io_commons-io-2.4.jar at spark://192.168.47.239:34706/jars/commons-io_commons-io-2.4.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar at spark://192.168.47.239:34706/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.github.rwl_jtransforms-2.4.0.jar at spark://192.168.47.239:34706/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.github.tony19_named-regexp-0.2.3.jar at spark://192.168.47.239:34706/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/log4j_log4j-1.2.15.jar at spark://192.168.47.239:34706/jars/log4j_log4j-1.2.15.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.guava_guava-16.0.1.jar at spark://192.168.47.239:34706/jars/com.google.guava_guava-16.0.1.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.code.gson_gson-2.3.1.jar at spark://192.168.47.239:34706/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar at spark://192.168.47.239:34706/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/net.sf.opencsv_opencsv-2.3.jar at spark://192.168.47.239:34706/jars/net.sf.opencsv_opencsv-2.3.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/ai.h2o_deepwater-backend-api-1.0.2.jar at spark://192.168.47.239:34706/jars/ai.h2o_deepwater-backend-api-1.0.2.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-lang_commons-lang-2.6.jar at spark://192.168.47.239:34706/jars/commons-lang_commons-lang-2.6.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar at spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at spark://192.168.47.239:34706/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.avro_avro-1.8.0.jar at spark://192.168.47.239:34706/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar at spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar at spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.thoughtworks.paranamer_paranamer-2.7.jar at spark://192.168.47.239:34706/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar at spark://192.168.47.239:34706/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.commons_commons-compress-1.8.1.jar at spark://192.168.47.239:34706/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.tukaani_xz-1.5.jar at spark://192.168.47.239:34706/jars/org.tukaani_xz-1.5.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.slf4j_slf4j-api-1.7.7.jar at spark://192.168.47.239:34706/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/net.java.dev.jets3t_jets3t-0.6.1.jar at spark://192.168.47.239:34706/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-httpclient_commons-httpclient-3.1.jar at spark://192.168.47.239:34706/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar at spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.httpcomponents_httpclient-4.3.6.jar at spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar at spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar at spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at spark://192.168.47.239:34706/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/joda-time_joda-time-2.8.1.jar at spark://192.168.47.239:34706/jars/joda-time_joda-time-2.8.1.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.httpcomponents_httpcore-4.3.3.jar at spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/commons-codec_commons-codec-1.6.jar at spark://192.168.47.239:34706/jars/commons-codec_commons-codec-1.6.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-core-4.0.0.jar at spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-core-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar at spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-spatial-4.0.0.jar at spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-spatial-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.mapdb_mapdb-0.9.9.jar at spark://192.168.47.239:34706/jars/org.mapdb_mapdb-0.9.9.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/com.spatial4j_spatial4j-0.3.jar at spark://192.168.47.239:34706/jars/com.spatial4j_spatial4j-0.3.jar with timestamp 1533667351119
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/.ivy2/jars/org.apache.lucene_lucene-queries-4.0.0.jar at spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-queries-4.0.0.jar with timestamp 1533667351119
+18/08/07 20:42:31 INFO SparkContext: Added JAR file:/home/josftm/R/x86_64-pc-linux-gnu-library/3.4/sparklyr/java/sparklyr-2.0-2.11.jar at spark://192.168.47.239:34706/jars/sparklyr-2.0-2.11.jar with timestamp 1533667351119
+18/08/07 20:42:31 INFO Executor: Starting executor ID driver on host localhost
+18/08/07 20:42:31 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33563.
+18/08/07 20:42:31 INFO NettyBlockTransferService: Server created on 192.168.47.239:33563
+18/08/07 20:42:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.47.239, 33563)
+18/08/07 20:42:31 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.47.239:33563 with 8.4 GB RAM, BlockManagerId(driver, 192.168.47.239, 33563)
+18/08/07 20:42:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.47.239, 33563)
+18/08/07 20:42:31 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+18/08/07 20:42:31 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+18/08/07 20:42:31 WARN InternalH2OBackend: Increasing 'spark.locality.wait' to value 30000
+18/08/07 20:42:31 INFO InternalH2OBackend: Starting H2O services: Sparkling Water configuration:
+  backend cluster mode : internal
+  workers              : None
+  cloudName            : sparkling-water-josftm_1770731341
+  flatfile             : true
+  clientBasePort       : 54321
+  nodeBasePort         : 54321
+  cloudTimeout         : 60000
+  h2oNodeLog           : INFO
+  h2oClientLog         : WARN
+  nthreads             : -1
+  drddMulFactor        : 10
+18/08/07 20:42:31 INFO SparkContext: Starting job: collect at SpreadRDDBuilder.scala:105
+18/08/07 20:42:31 INFO DAGScheduler: Got job 0 (collect at SpreadRDDBuilder.scala:105) with 11 output partitions
+18/08/07 20:42:31 INFO DAGScheduler: Final stage: ResultStage 0 (collect at SpreadRDDBuilder.scala:105)
+18/08/07 20:42:31 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:42:31 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:42:31 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at mapPartitionsWithIndex at SpreadRDDBuilder.scala:102), which has no missing parents
+18/08/07 20:42:31 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 2.1 KB, free 8.4 GB)
+18/08/07 20:42:31 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 1374.0 B, free 8.4 GB)
+18/08/07 20:42:31 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.47.239:33563 (size: 1374.0 B, free: 8.4 GB)
+18/08/07 20:42:31 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:42:31 INFO DAGScheduler: Submitting 11 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at mapPartitionsWithIndex at SpreadRDDBuilder.scala:102)
+18/08/07 20:42:31 INFO TaskSchedulerImpl: Adding task set 0.0 with 11 tasks
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, partition 0, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, localhost, partition 1, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, localhost, partition 2, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, localhost, partition 3, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, localhost, partition 4, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, localhost, partition 5, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, localhost, partition 6, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, localhost, partition 7, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, localhost, partition 8, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, localhost, partition 9, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, localhost, partition 10, PROCESS_LOCAL, 11401 bytes)
+18/08/07 20:42:31 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+18/08/07 20:42:31 INFO Executor: Running task 2.0 in stage 0.0 (TID 2)
+18/08/07 20:42:31 INFO Executor: Running task 3.0 in stage 0.0 (TID 3)
+18/08/07 20:42:31 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+18/08/07 20:42:31 INFO Executor: Running task 4.0 in stage 0.0 (TID 4)
+18/08/07 20:42:31 INFO Executor: Running task 5.0 in stage 0.0 (TID 5)
+18/08/07 20:42:31 INFO Executor: Running task 6.0 in stage 0.0 (TID 6)
+18/08/07 20:42:31 INFO Executor: Running task 10.0 in stage 0.0 (TID 10)
+18/08/07 20:42:31 INFO Executor: Running task 9.0 in stage 0.0 (TID 9)
+18/08/07 20:42:31 INFO Executor: Running task 7.0 in stage 0.0 (TID 7)
+18/08/07 20:42:31 INFO Executor: Running task 8.0 in stage 0.0 (TID 8)
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO TransportClientFactory: Successfully created connection to /192.168.47.239:34706 after 7 ms (0 ms spent in bootstraps)
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1593430081074426535.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-plus-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.xerial.snappy_snappy-java-1.1.1.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1347945758071669590.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.xerial.snappy_snappy-java-1.1.1.3.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2965006698024598180.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-xml-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp6483197877837002928.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.codehaus.jackson_jackson-core-asl-1.9.13.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-queries-4.0.0.jar with timestamp 1533667351119
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-queries-4.0.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp740285260716989561.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.lucene_lucene-queries-4.0.0.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-core-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-core-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp762615236961395664.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-core-3.10.0.10.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/commons-codec_commons-codec-1.6.jar with timestamp 1533667351118
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/commons-codec_commons-codec-1.6.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp9173363815857003174.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/commons-codec_commons-codec-1.6.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/no.priv.garshol.duke_duke-1.2.jar with timestamp 1533667351109
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/no.priv.garshol.duke_duke-1.2.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1428777423399201256.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/no.priv.garshol.duke_duke-1.2.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5383729399611492527.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty.orbit_javax.mail.glassfish-1.4.1.v201005082020.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/gov.nist.math_jama-1.0.3.jar with timestamp 1533667351111
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/gov.nist.math_jama-1.0.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1528400953922599366.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/gov.nist.math_jama-1.0.3.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/commons-lang_commons-lang-2.6.jar with timestamp 1533667351113
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/commons-lang_commons-lang-2.6.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3946760523619537772.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/commons-lang_commons-lang-2.6.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar with timestamp 1533667351116
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp4548874445852414107.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.codehaus.jackson_jackson-mapper-asl-1.9.13.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar with timestamp 1533667351115
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5051480511189540024.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty.orbit_javax.activation-1.1.0.v201105071233.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/commons-httpclient_commons-httpclient-3.1.jar with timestamp 1533667351117
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/commons-httpclient_commons-httpclient-3.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5876282933941593959.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/commons-httpclient_commons-httpclient-3.1.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.google.guava_guava-16.0.1.jar with timestamp 1533667351112
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.google.guava_guava-16.0.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1323572458384993784.tmp
+18/08/07 20:42:31 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.google.guava_guava-16.0.1.jar to class loader
+18/08/07 20:42:31 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:31 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-s3-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2863385878658452017.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-persist-s3-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7278020193406540057.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-io-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.thoughtworks.paranamer_paranamer-2.7.jar with timestamp 1533667351116
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.thoughtworks.paranamer_paranamer-2.7.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1873343949275383494.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.thoughtworks.paranamer_paranamer-2.7.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/commons-logging_commons-logging-1.1.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5791948103753958849.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/commons-logging_commons-logging-1.1.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.slf4j_slf4j-api-1.7.7.jar with timestamp 1533667351116
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.slf4j_slf4j-api-1.7.7.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp6633323216645942359.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.slf4j_slf4j-api-1.7.7.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7084231166437124467.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-persist-hdfs-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/commons-io_commons-io-2.4.jar with timestamp 1533667351111
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/commons-io_commons-io-2.4.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5644406872119554526.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/commons-io_commons-io-2.4.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar with timestamp 1533667351109
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp504093250416955583.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_sparkling-water-ml_2.11-2.0.2.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpcore-4.3.3.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpcore-4.3.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1594963419010007943.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.httpcomponents_httpcore-4.3.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar with timestamp 1533667351111
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5675676113819280802.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.directory.studio_org.apache.commons.lang-2.6.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-analyzers-common-4.0.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1439369190847929542.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.lucene_lucene-analyzers-common-4.0.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.github.tony19_named-regexp-0.2.3.jar with timestamp 1533667351112
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.github.tony19_named-regexp-0.2.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2254350395538270585.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.github.tony19_named-regexp-0.2.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8587995021411247550.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-continuation-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/log4j_log4j-1.2.15.jar with timestamp 1533667351112
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/log4j_log4j-1.2.15.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1037320394064384245.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/log4j_log4j-1.2.15.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar with timestamp 1533667351115
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8284066366377001441.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-security-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5150788541021923394.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-util-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.spatial4j_spatial4j-0.3.jar with timestamp 1533667351119
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.spatial4j_spatial4j-0.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7596487128232457387.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.spatial4j_spatial4j-0.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-genmodel-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1567508536200471998.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-genmodel-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.javassist_javassist-3.18.2-GA.jar with timestamp 1533667351111
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.javassist_javassist-3.18.2-GA.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8768527509502680151.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.javassist_javassist-3.18.2-GA.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2264396550269074778.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.amazonaws_aws-java-sdk-kms-1.10.47.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-core-1.10.47.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1968712247408374388.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.amazonaws_aws-java-sdk-core-1.10.47.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar with timestamp 1533667351111
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8437005076127570765.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_google-analytics-java-1.1.2-H2O-CUSTOM.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3602597535325719096.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-webapp-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar with timestamp 1533667351109
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3958786297649385339.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_sparkling-water-repl_2.11-2.0.2.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/joda-time_joda-time-2.8.1.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/joda-time_joda-time-2.8.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3666979838676033590.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/joda-time_joda-time-2.8.1.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-scala_2.11-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5492894072460903321.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-scala_2.11-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-algos-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-algos-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp312528816654660783.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-algos-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.avro_avro-1.8.0.jar with timestamp 1533667351115
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.avro_avro-1.8.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp4829107625788083201.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.avro_avro-1.8.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/net.java.dev.jets3t_jets3t-0.6.1.jar with timestamp 1533667351117
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/net.java.dev.jets3t_jets3t-0.6.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5097506089422213845.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/net.java.dev.jets3t_jets3t-0.6.1.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_reflections-0.9.11-h2o-custom.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1792997519687810152.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_reflections-0.9.11-h2o-custom.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.tukaani_xz-1.5.jar with timestamp 1533667351116
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.tukaani_xz-1.5.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8915150051707859745.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.tukaani_xz-1.5.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/sparklyr-2.0-2.11.jar with timestamp 1533667351119
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/sparklyr-2.0-2.11.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3165574793850333296.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/sparklyr-2.0-2.11.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar with timestamp 1533667351108
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_sparkling-water-core_2.11-2.0.2.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7529533649797969630.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_sparkling-water-core_2.11-2.0.2.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_deepwater-backend-api-1.0.2.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_deepwater-backend-api-1.0.2.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8124684102536279853.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_deepwater-backend-api-1.0.2.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/net.sf.opencsv_opencsv-2.3.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/net.sf.opencsv_opencsv-2.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp4152306071435509675.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/net.sf.opencsv_opencsv-2.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpclient-4.3.6.jar with timestamp 1533667351117
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.httpcomponents_httpclient-4.3.6.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3938687163616775479.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.httpcomponents_httpclient-4.3.6.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1347958311572309995.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-http-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-app-3.10.0.10.jar with timestamp 1533667351109
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-app-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp9032054901486436340.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-app-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2037943128425925524.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty.orbit_javax.transaction-1.1.1.v201105210645.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-avro-parser-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8748359225260977411.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-avro-parser-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.commons_commons-math3-3.3.jar with timestamp 1533667351111
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.commons_commons-math3-3.3.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2930356548462561742.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.commons_commons-math3-3.3.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.google.code.gson_gson-2.3.1.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.google.code.gson_gson-2.3.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8878325233576053121.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.google.code.gson_gson-2.3.1.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7166295804343700463.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-server-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.mapdb_mapdb-0.9.9.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.mapdb_mapdb-0.9.9.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5549071030685542878.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.mapdb_mapdb-0.9.9.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667351112
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp4862975462753514714.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty.aggregate_jetty-servlet-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-core-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-core-4.0.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2160451616240407405.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.lucene_lucene-core-4.0.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.github.rwl_jtransforms-2.4.0.jar with timestamp 1533667351112
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.github.rwl_jtransforms-2.4.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp1816852197567034443.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.github.rwl_jtransforms-2.4.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-web-3.10.0.10.jar with timestamp 1533667351110
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/ai.h2o_h2o-web-3.10.0.10.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp2950658953354986345.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/ai.h2o_h2o-web-3.10.0.10.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.joda_joda-convert-1.7.jar with timestamp 1533667351110
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.joda_joda-convert-1.7.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5639135323686080831.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.joda_joda-convert-1.7.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-spatial-4.0.0.jar with timestamp 1533667351118
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.lucene_lucene-spatial-4.0.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp6554490670608437227.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.lucene_lucene-spatial-4.0.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar with timestamp 1533667351114
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp7018431169844478416.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-jndi-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar with timestamp 1533667351117
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp3306503281551709405.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.amazonaws_aws-java-sdk-s3-1.10.47.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.apache.commons_commons-compress-1.8.1.jar with timestamp 1533667351116
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.apache.commons_commons-compress-1.8.1.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp6382135391740078793.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.apache.commons_commons-compress-1.8.1.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1533667351115
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp5910819939966560225.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/com.google.code.findbugs_jsr305-3.0.0.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar with timestamp 1533667351115
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp8602399655378206570.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty_jetty-servlet-8.1.17.v20150415.jar to class loader
+18/08/07 20:42:32 INFO Executor: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar with timestamp 1533667351113
+18/08/07 20:42:32 INFO Utils: Fetching spark://192.168.47.239:34706/jars/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to /tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/fetchFileTemp6761799296199445276.tmp
+18/08/07 20:42:32 INFO Executor: Adding file:/tmp/spark-f19b98ea-730b-4c87-8fcc-9d8ae3bc476d/userFiles-ed4dd81d-7d59-4fb7-89f6-66707d1fdeee/org.eclipse.jetty.orbit_javax.servlet-3.0.0.v201112011016.jar to class loader
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_0 stored as values in memory (estimated size 16.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_6 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_8 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_2 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_9 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_6 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_4 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_10 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_7 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_1 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_3 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block rdd_0_5 stored as values in memory (estimated size 24.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_5 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_0 in memory on 192.168.47.239:33563 (size: 16.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_3 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_1 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_7 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_10 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_4 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_9 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_2 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added rdd_0_8 in memory on 192.168.47.239:33563 (size: 24.0 B, free: 8.4 GB)
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 8:
+[rdd_0_8]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 0:
+[rdd_0_0]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 4:
+[rdd_0_4]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 1:
+[rdd_0_1]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 9:
+[rdd_0_9]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 10:
+[rdd_0_10]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 5:
+[rdd_0_5]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 7:
+[rdd_0_7]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 3:
+[rdd_0_3]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 6:
+[rdd_0_6]
+18/08/07 20:42:32 WARN Executor: 1 block locks were not released by TID = 2:
+[rdd_0_2]
+18/08/07 20:42:32 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 8.0 in stage 0.0 (TID 8). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 10.0 in stage 0.0 (TID 10). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 6.0 in stage 0.0 (TID 6). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 2.0 in stage 0.0 (TID 2). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 5.0 in stage 0.0 (TID 5). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 3.0 in stage 0.0 (TID 3). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 4.0 in stage 0.0 (TID 4). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 7.0 in stage 0.0 (TID 7). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO Executor: Finished task 9.0 in stage 0.0 (TID 9). 1632 bytes result sent to driver
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 10.0 in stage 0.0 (TID 10) in 400 ms on localhost (1/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 437 ms on localhost (2/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 413 ms on localhost (3/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 406 ms on localhost (4/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 408 ms on localhost (5/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 414 ms on localhost (6/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 410 ms on localhost (7/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 413 ms on localhost (8/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 408 ms on localhost (9/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 412 ms on localhost (10/11)
+18/08/07 20:42:32 INFO TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 407 ms on localhost (11/11)
+18/08/07 20:42:32 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/08/07 20:42:32 INFO DAGScheduler: ResultStage 0 (collect at SpreadRDDBuilder.scala:105) finished in 0,455 s
+18/08/07 20:42:32 INFO DAGScheduler: Job 0 finished: collect at SpreadRDDBuilder.scala:105, took 0,620751 s
+18/08/07 20:42:32 INFO ParallelCollectionRDD: Removing RDD 0 from persistence list
+18/08/07 20:42:32 INFO BlockManager: Removing RDD 0
+18/08/07 20:42:32 INFO SpreadRDDBuilder: Detected 1 spark executors for 1 H2O workers!
+18/08/07 20:42:32 INFO InternalH2OBackend: Launching H2O on following 1 nodes: (driver,192.168.47.239,-1)
+18/08/07 20:42:32 INFO SparkContext: Starting job: collect at InternalBackendUtils.scala:163
+18/08/07 20:42:32 INFO DAGScheduler: Got job 1 (collect at InternalBackendUtils.scala:163) with 1 output partitions
+18/08/07 20:42:32 INFO DAGScheduler: Final stage: ResultStage 1 (collect at InternalBackendUtils.scala:163)
+18/08/07 20:42:32 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:42:32 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:42:32 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[3] at map at InternalBackendUtils.scala:100), which has no missing parents
+18/08/07 20:42:32 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 3.0 KB, free 8.4 GB)
+18/08/07 20:42:32 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 1959.0 B, free 8.4 GB)
+18/08/07 20:42:32 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.47.239:33563 (size: 1959.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:42:32 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[3] at map at InternalBackendUtils.scala:100)
+18/08/07 20:42:32 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+18/08/07 20:42:32 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 11, localhost, partition 0, ANY, 11398 bytes)
+18/08/07 20:42:32 INFO Executor: Running task 0.0 in stage 1.0 (TID 11)
+18/08/07 20:42:32 INFO BlockManager: Removing RDD 0
+18/08/07 20:42:32 INFO ContextCleaner: Cleaned RDD 0
+18/08/07 20:42:32 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 192.168.47.239:33563 in memory (size: 1374.0 B, free: 8.4 GB)
+18/08/07 20:42:32 INFO Reflections: Reflections took 172 ms to scan 18 urls, producing 169 keys and 1164 values 
+18/08/07 20:42:32 INFO Reflections: Reflections took 86 ms to scan 10 urls, producing 127 keys and 639 values 
+18/08/07 20:42:33 INFO Server: jetty-8.1.17.v20150415
+18/08/07 20:42:33 INFO AbstractConnector: Started SocketConnector@0.0.0.0:54321
+18/08/07 20:42:33 INFO Executor: Finished task 0.0 in stage 1.0 (TID 11). 1536 bytes result sent to driver
+18/08/07 20:42:33 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 11) in 873 ms on localhost (1/1)
+18/08/07 20:42:33 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+18/08/07 20:42:33 INFO DAGScheduler: ResultStage 1 (collect at InternalBackendUtils.scala:163) finished in 0,873 s
+18/08/07 20:42:33 INFO DAGScheduler: Job 1 finished: collect at InternalBackendUtils.scala:163, took 0,883279 s
+18/08/07 20:42:33 INFO SparkContext: Starting job: foreach at InternalBackendUtils.scala:175
+18/08/07 20:42:33 INFO DAGScheduler: Got job 2 (foreach at InternalBackendUtils.scala:175) with 1 output partitions
+18/08/07 20:42:33 INFO DAGScheduler: Final stage: ResultStage 2 (foreach at InternalBackendUtils.scala:175)
+18/08/07 20:42:33 INFO DAGScheduler: Parents of final stage: List()
+18/08/07 20:42:33 INFO DAGScheduler: Missing parents: List()
+18/08/07 20:42:33 INFO DAGScheduler: Submitting ResultStage 2 (InvokeOnNodesRDD[2] at RDD at InvokeOnNodesRDD.scala:27), which has no missing parents
+18/08/07 20:42:33 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 1688.0 B, free 8.4 GB)
+18/08/07 20:42:33 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 1166.0 B, free 8.4 GB)
+18/08/07 20:42:33 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.47.239:33563 (size: 1166.0 B, free: 8.4 GB)
+18/08/07 20:42:33 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1012
+18/08/07 20:42:33 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (InvokeOnNodesRDD[2] at RDD at InvokeOnNodesRDD.scala:27)
+18/08/07 20:42:33 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks
+18/08/07 20:42:33 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 12, localhost, partition 0, ANY, 11398 bytes)
+18/08/07 20:42:33 INFO Executor: Running task 0.0 in stage 2.0 (TID 12)
+18/08/07 20:42:33 INFO Executor: Finished task 0.0 in stage 2.0 (TID 12). 843 bytes result sent to driver
+18/08/07 20:42:33 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 12) in 8 ms on localhost (1/1)
+18/08/07 20:42:33 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+18/08/07 20:42:33 INFO DAGScheduler: ResultStage 2 (foreach at InternalBackendUtils.scala:175) finished in 0,010 s
+18/08/07 20:42:33 INFO DAGScheduler: Job 2 finished: foreach at InternalBackendUtils.scala:175, took 0,015075 s
+18/08/07 20:42:33 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.47.239:33563 in memory (size: 1166.0 B, free: 8.4 GB)
+18/08/07 20:42:34 INFO SharedState: Warehouse path is 'file:/home/josftm/Dropbox/SOCO_SPECIALISSUE/experimentation/spark-warehouse'.
+18/08/07 20:42:34 WARN SparkSession$Builder: Using an existing SparkSession; some configuration may not take effect.
+18/08/07 20:42:34 INFO ContextCleaner: Cleaned accumulator 264
+18/08/07 20:42:34 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.47.239:33563 in memory (size: 1959.0 B, free: 8.4 GB)
+18/08/07 20:42:39 INFO H2OContext: Sparkling Water started, status of context: 
+Sparkling Water Context:
+ * H2O name: sparkling-water-josftm_1770731341
+ * cluster size: 1
+ * list of used nodes:
+  (executorId, host, port)
+  ------------------------
+  (driver,192.168.47.239,54321)
+  ------------------------
+
+  Open H2O Flow in browser: http://192.168.47.239:54321 (CMD + click in Mac OSX)
+    

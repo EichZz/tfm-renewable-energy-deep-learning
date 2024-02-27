@@ -1,0 +1,49 @@
+Model Details:
+==============
+
+H2ORegressionModel: deeplearning
+Model Key:  Grid_DeepLearning_training_model_R_1534091208427_165_model_8 
+Status of Neuron Layers: predicting PV_H5, regression, gaussian distribution, Quadratic loss, 1.381 weights/biases, 38,6 KB, 2.550 training samples, mini-batch size 1
+  layer units   type dropout       l1       l2 mean_rate rate_rms momentum mean_weight weight_rms mean_bias bias_rms
+1     1   114  Input  0.00 %                                                                                        
+2     2    10   Tanh  0.00 % 0.000000 0.000000  0.000391 0.000233 0.000000    0.006419   0.573743  0.008473 0.015368
+3     3    10   Tanh  0.00 % 0.000000 0.000000  0.000345 0.000179 0.000000   -0.000508   0.546762 -0.001994 0.021240
+4     4    10   Tanh  0.00 % 0.000000 0.000000  0.000772 0.000897 0.000000   -0.003155   0.553067  0.008525 0.026319
+5     5     1 Linear         0.000000 0.000000  0.000109 0.000002 0.000000    0.105986   0.499860  0.009909 0.000000
+
+H2ORegressionMetrics: deeplearning
+** Reported on training data. **
+** Metrics reported on full training frame **
+
+MSE:  0.02124752
+RMSE:  0.1457653
+MAE:  0.1100167
+RMSLE:  0.1062944
+Mean Residual Deviance :  0.02124752
+
+
+H2ORegressionMetrics: deeplearning
+** Reported on validation data. **
+** Metrics reported on full validation frame **
+
+MSE:  0.05093426
+RMSE:  0.2256862
+MAE:  0.1836361
+RMSLE:  0.1535395
+Mean Residual Deviance :  0.05093426
+
+
+
+
+Scoring History: 
+            timestamp   duration training_speed   epochs iterations     samples training_rmse training_deviance
+1 2018-08-12 18:42:42  0.000 sec                 0.00000          0    0.000000                                
+2 2018-08-12 18:42:42  3.107 sec  51000 obs/sec  1.00000          1  255.000000       0.19654           0.03863
+3 2018-08-12 18:42:42  3.152 sec  56666 obs/sec 10.00000         10 2550.000000       0.14577           0.02125
+  training_mae validation_rmse validation_deviance validation_mae
+1                                                                
+2      0.15434         0.25223             0.06362        0.20338
+3      0.11002         0.22569             0.05093        0.18364
+
+NULL
+[1] "TRAINING TIME: 8.24199999999996 seconds"

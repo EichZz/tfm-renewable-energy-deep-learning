@@ -1,0 +1,47 @@
+Model Details:
+==============
+
+H2ORegressionModel: deeplearning
+Model Key:  Grid_DeepLearning_training_model_R_1533749542586_4_model_0 
+Status of Neuron Layers: predicting PV_H4, regression, gaussian distribution, Quadratic loss, 401 weights/biases, 13,5 KB, 2.540 training samples, mini-batch size 1
+  layer units   type dropout       l1       l2 mean_rate rate_rms momentum mean_weight weight_rms mean_bias bias_rms
+1     1    38  Input  0.00 %                                                                                        
+2     2    10   Tanh  0.00 % 0.000000 0.000000  0.000521 0.000348 0.000000   -0.021527   0.577550  0.001358 0.018646
+3     3     1 Linear         0.000000 0.000000  0.000107 0.000002 0.000000    0.060469   0.419854 -0.021085 0.000000
+
+H2ORegressionMetrics: deeplearning
+** Reported on training data. **
+** Metrics reported on full training frame **
+
+MSE:  0.01959859
+RMSE:  0.139995
+MAE:  0.1084361
+RMSLE:  0.1038483
+Mean Residual Deviance :  0.01959859
+
+
+H2ORegressionMetrics: deeplearning
+** Reported on validation data. **
+** Metrics reported on full validation frame **
+
+MSE:  0.04081805
+RMSE:  0.2020348
+MAE:  0.1692034
+RMSLE:  0.140994
+Mean Residual Deviance :  0.04081805
+
+
+
+
+Scoring History: 
+            timestamp   duration training_speed   epochs iterations     samples training_rmse training_deviance
+1 2018-08-08 19:32:54  0.000 sec                 0.00000          0    0.000000                                
+2 2018-08-08 19:32:54  0.059 sec  84666 obs/sec  1.00000          1  254.000000       0.18855           0.03555
+3 2018-08-08 19:32:54  0.080 sec 120952 obs/sec 10.00000         10 2540.000000       0.13999           0.01960
+  training_mae validation_rmse validation_deviance validation_mae
+1                                                                
+2      0.14705         0.22815             0.05205        0.17190
+3      0.10844         0.20203             0.04082        0.16920
+
+NULL
+[1] "TRAINING TIME: 2.28199999999998 seconds"
