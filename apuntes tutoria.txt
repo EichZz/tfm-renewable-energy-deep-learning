@@ -25,3 +25,7 @@ _______________________________________________________
   3 - Metodología: deep learning, teoría de los algoritmos, uso de gpu.
   4- Resultados
 
+  _______________________________________________________
+
+  
+
