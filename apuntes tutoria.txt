@@ -20,12 +20,36 @@ _______________________________________________________
  3 exp: usar datos de expermientación de Pepe, tanto usando RS como BO  - Figura 7 del Paper.
 
   Memoria:
-  1- Introducción
-  2 - Related work
+  1- Introducción: se parte del artículo de Pepe
+  2 - Related work: 
+
   3 - Metodología: deep learning, teoría de los algoritmos, uso de gpu.
   4- Resultados
 
   _______________________________________________________
 
-  
+Buscar figuras y fórmulas de los algoritmos y de los optimizadores.
+
+
+  1. Introducción
+Descripcioon del problema
+Motvación
+Aportaciones al problema
+
+2. Tal cual, traducir lo de Pepe y añadir los de los años, copiar el abstract y resumen de 3 líneas de cada uno.
+
+3. Metodología
+
+3.1 Propuesta del TFM: lo que se va a hacer. Añadir flowchart y extenderse en todo: explicar los datos, el preprocesamiento, como se ven los resultados...
+
+3.2 Fundamentos teóricos: extenderse, añadir optimizadores
+
+4. Resultados
+    4.1 Descripción de los datos. Origen de los datos, variables, etc.
+    4.2 Métricas de error: Explicar mae y rmse: definir fórmula y justificar su uso
+    4.3 experimentación de los datos: explicar cómo se dan los 14 datasets, horizontes, escalabilidad, normalización...
+    4.4 Discusión y análisis de los resultados:
+
+5. Conclusiones: resumen de lo que se ha hecho.
+
 
