@@ -52,4 +52,4 @@ Aportaciones al problema
 
 5. Conclusiones: resumen de lo que se ha hecho.
 
-
+https://github.com/tensorflow/tensorflow/issues/41380
