@@ -53,3 +53,7 @@ Aportaciones al problema
 5. Conclusiones: resumen de lo que se ha hecho.
 
 https://github.com/tensorflow/tensorflow/issues/41380
+
+Motivación: por qué es importante predecir datos de denergía solar, energías renovables, ahorro energético y ahorro de costes.
+Aportaciones al problema: desarrollado metología basado en deep learning con GPU, que mejora  la eficiciencia (tiempo) y eficacia (precisión)
+1.4 Estructura del Trabajo de Máster: lo que hay en cada uno de los apartados.
